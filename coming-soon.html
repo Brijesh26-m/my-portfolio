@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coming Soon — Alex Roe</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/scripts.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Alex Roe</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container coming-soon">
+    <h1>Something new is on the way</h1>
+    <p>I'm working on a new case study and a redesigned project showcase. Sign up to be notified.</p>
+
+    <form name="subscribe" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="subscribe" />
+      <label>
+        <span>Email</span>
+        <input type="email" name="email" required placeholder="you@example.com" />
+      </label>
+      <button class="btn" type="submit">Notify me</button>
+    </form>
+
+    <div class="countdown" aria-hidden="true">
+      <strong>Launching:</strong>
+      <time id="launch-date">2026-01-15</time>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year3"></span> Alex Roe</p>
+    </div>
+  </footer>
+</body>
+</html>
